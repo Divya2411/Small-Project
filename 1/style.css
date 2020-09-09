@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+ margin-top: 40px;
+}
+
+.type{
+    font-size: 40px;
+    font-weight: 400;
+
+}
+.text-muted{
+    font-size: 30px
+}
+ .bold{
+     font-weight: bold;
+ }
+ .content{
+     position: relative;
+     width: 50%;
+ }
+
+ .img-fluid{
+     opacity: 1;
+     display: block;
+     transition: 0.5s ease;
+     margin-bottom: 20px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+     -webkit-transition: 0.5s ease;
+     -moz-transition: 0.5s ease;
+     -ms-transition: 0.5s ease;
+     -o-transition: 0.5s ease;
+     
+}
+
+ .content{
+    position: absolute;
+    top: 0;
+    left: 0%;
+    transition: 0.5 ease;
+    height: auto;
+    width: 100%;
+    opacity: 0;
+    -webkit-transition: 0.5 ease;
+    -moz-transition: 0.5 ease;
+    -ms-transition: 0.5 ease;
+    -o-transition: 0.5 ease;
+}
+.center:hover .img-fluid{
+    opacity: 0.3;
+   
+}
+.center:hover .content{
+    opacity: 1;
+    
+}
+.content h3{
+    margin: 20px 0 0 40px;
+    color: black;
+}
+.content p{
+    margin: 10px 0 0 40px;
+    color: black;
+}
+
+
+ .img-fluid:hover{
+     transform: scale(1.03);
+     -webkit-transform: scale(1.03);
+     -moz-transform: scale(1.03);
+     -ms-transform: scale(1.03);
+     -o-transform: scale(1.03);
+     opacity: 0.5;
+}
+
+.fa{
+    padding: 10px;
+    color: black;
+    margin:20px 10px 50px 0 ;
+
+}
+.fa:hover{
+    background-color: black;
+    color: #ffffff;
+}
